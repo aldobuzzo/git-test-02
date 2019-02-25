@@ -8,4 +8,7 @@ public class SayGoodNight {
 	public void sayGoodNight(){
 		System.out.println("Good Night!");
 	}
+	public void sayGoodNightToFriend(){
+		System.out.println("Good Night My Friend!");
+	}
 }

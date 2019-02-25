@@ -15,6 +15,7 @@ public class TestGitMain01 {
 		
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
+		sayGoodNight.sayGoodNightToFriend();
 		
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();

@@ -15,6 +15,9 @@ public class TestGitMain01 {
 		
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
+
+		sayGoodNight.sayGoodNightToFriend();
+		
 		System.out.println("End Main program");
 	}
 

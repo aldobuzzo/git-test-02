@@ -12,6 +12,9 @@ public class TestGitMain01 {
 		System.out.println("Call Good Bye");
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();
+		
+		SayGoodNight sayGoodNight = new SayGoodNight();
+		sayGoodNight.sayGoodNight();
 		System.out.println("End Main program");
 	}
 

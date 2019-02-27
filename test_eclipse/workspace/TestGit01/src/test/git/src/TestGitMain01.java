@@ -3,6 +3,8 @@ package test.git.src;
 public class TestGitMain01 {
 
 	public static void main(String[] args) {
+		//Test Tag
+		//Test Merge from Tag
 		System.out.println("Start Main program");
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
@@ -17,6 +19,9 @@ public class TestGitMain01 {
 		sayGoodNight.sayGoodNight();
 		sayGoodNight.sayGoodNightToFriend();
 		
+		//hotfix 20190226-01 inizio
+		sayGoodNight.sayGoodNightToFather();
+		//hotfix 20190226-01 fine
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();
 		System.out.println("End Main program");

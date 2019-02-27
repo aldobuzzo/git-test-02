@@ -11,4 +11,9 @@ public class SayGoodNight {
 	public void sayGoodNightToFriend(){
 		System.out.println("Good Night My Friend!");
 	}
+	//hotfix 20190226-01 inizio
+	public void sayGoodNightToFather(){
+		System.out.println("Good Night Dad!");
+	}
+	//hotfix 20190226-01 fine
 }

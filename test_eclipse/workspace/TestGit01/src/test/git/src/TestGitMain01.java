@@ -17,6 +17,9 @@ public class TestGitMain01 {
 		
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
+		//Test Merge Manually again
+		sayGoodNight.sayGoodNightAgain();
+		//Test Merge Manually Again
 		sayGoodNight.sayGoodNightToFriend();
 		
 		//hotfix 20190226-01 inizio

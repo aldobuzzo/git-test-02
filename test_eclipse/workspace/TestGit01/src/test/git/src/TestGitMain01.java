@@ -3,8 +3,8 @@ package test.git.src;
 public class TestGitMain01 {
 
 	public static void main(String[] args) {
-		// Test Tag
-		// Test Merge from Tag
+		//Test Tag
+		//Test Merge from Tag
 		System.out.println("Start Main program");
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
@@ -14,25 +14,17 @@ public class TestGitMain01 {
 		System.out.println("Call Good Bye");
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();
-
+		
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
 		//Test Merge Manually again
 		sayGoodNight.sayGoodNightAgain();
 		//Test Merge Manually Again
-		// Test Merge Manually again
-		sayGoodNight.sayGoodNightAgain();
-		// Test Merge Manually Again
 		sayGoodNight.sayGoodNightToFriend();
-		// hotfix 20190301-01 inizio
-		if (Father.isFatherAwaked()) {
-			// hotfix 20190301-01 fine
-			// hotfix 20190226-01 inizio
-			sayGoodNight.sayGoodNightToFather();
-			// hotfix 20190301-01 inizio
-		}
-		// hotfix 20190301-01 fine
-		// hotfix 20190226-01 fine
+		
+		//hotfix 20190226-01 inizio
+		sayGoodNight.sayGoodNightToFather();
+		//hotfix 20190226-01 fine
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();
 		System.out.println("End Main program");

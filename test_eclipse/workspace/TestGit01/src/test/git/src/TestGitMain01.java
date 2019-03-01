@@ -14,7 +14,8 @@ public class TestGitMain01 {
 		System.out.println("Call Good Bye");
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();
-		
+		//Test Insert Commit previous Tag
+		//Test Insert Commit previous Tag
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
 		sayGoodNight.sayGoodNightToFriend();

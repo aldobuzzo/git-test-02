@@ -17,11 +17,19 @@ public class TestGitMain01 {
 		
 		SayGoodNight sayGoodNight = new SayGoodNight();
 		sayGoodNight.sayGoodNight();
+		//Test Merge Manually again
+		sayGoodNight.sayGoodNightAgain();
+		//Test Merge Manually Again
 		sayGoodNight.sayGoodNightToFriend();
-		
-		//hotfix 20190226-01 inizio
-		sayGoodNight.sayGoodNightToFather();
-		//hotfix 20190226-01 fine
+		// hotfix 20190301-01 inizio
+		if (Father.isFatherAwaked()) {
+			// hotfix 20190301-01 fine
+			// hotfix 20190226-01 inizio
+			sayGoodNight.sayGoodNightToFather();
+			// hotfix 20190301-01 inizio
+		}
+		// hotfix 20190301-01 fine
+		// hotfix 20190226-01 fine
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();
 		System.out.println("End Main program");

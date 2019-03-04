@@ -26,4 +26,9 @@ public class SayGoodNight {
 		System.out.println("Good Night Mum!");
 	}
 	//hotfix 20190301-01 fine
+	//Feature 20190301-01 inizio
+	public void sayGoodNightSister(){
+		System.out.println("Good Night Mum!");
+	}
+	//Feature 20190301-01 fine
 }

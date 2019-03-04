@@ -30,6 +30,12 @@ public class TestGitMain01 {
 		}
 		// hotfix 20190301-01 fine
 		// hotfix 20190226-01 fine
+		
+		//Feature 20190301-01 Syster GoodByte inizio
+		if (Sister.isSisterAwaked()){
+			sayGoodNight.sayGoodNightSister();
+		}
+		//Feature 20190301-01 Syster GoodByte fine		
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();
 		System.out.println("End Main program");

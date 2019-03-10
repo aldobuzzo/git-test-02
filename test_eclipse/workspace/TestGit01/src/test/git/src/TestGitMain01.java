@@ -12,6 +12,10 @@ public class TestGitMain01 {
 		SayHello02 sayHello2 = new SayHello02();
 		sayHello2.sayHello();
 		System.out.println("Call Good Bye");
+		//Feature20190310-01 Commit Feature Having Lunck
+		SayHavingLunch sayHavingLunch = new  SayHavingLunch();
+		sayHavingLunch.sayHavingLunch();
+		//Feature20190310-01 fine
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();
 		

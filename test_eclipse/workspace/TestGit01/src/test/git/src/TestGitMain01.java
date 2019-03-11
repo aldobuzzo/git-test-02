@@ -9,8 +9,15 @@ public class TestGitMain01 {
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
 		System.out.println("Call Hello2");
-		SayHello02 sayHello2 = new SayHello02();
-		sayHello2.sayHello();
+		//Feature 20190311-02 inizio
+		//SayHello02 sayHello2 = new SayHello02();
+		//sayHello2.sayHello();
+		new SayHello().sayHello("2");
+		//Feature 20190311-02 Fine
+		//Feature Having Dinner with father inizio
+		new HavingDinnerWithFather().sayHavingDinnerWithFather();
+		//Feature Having Dinner with father fine		
+		
 		System.out.println("Call Good Bye");
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();

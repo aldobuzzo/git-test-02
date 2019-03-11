@@ -11,6 +11,11 @@ public class TestGitMain01 {
 		System.out.println("Call Hello2");
 		SayHello02 sayHello2 = new SayHello02();
 		sayHello2.sayHello();
+		
+		//Feature Having Dinner with father inizio
+		new HavingDinnerWithFather().sayHavingDinnerWithFather();
+		//Feature Having Dinner with father fine		
+		
 		System.out.println("Call Good Bye");
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();

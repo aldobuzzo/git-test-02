@@ -9,8 +9,11 @@ public class TestGitMain01 {
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
 		System.out.println("Call Hello2");
-		SayHello02 sayHello2 = new SayHello02();
-		sayHello2.sayHello();
+		//Feature 20190311-02 inizio
+		//SayHello02 sayHello2 = new SayHello02();
+		//sayHello2.sayHello();
+		new SayHello().sayHello("2");
+		//Feature 20190311-02 Fine
 		System.out.println("Call Good Bye");
 		//Feature20190310-01 Commit Feature Having Lunch
 		 new  SayHavingLunch().sayHavingLunch();
@@ -18,6 +21,9 @@ public class TestGitMain01 {
 		//Feature20190310-01 Commit Feature Having Lunch with Sister
 		 new  SayHavingLunch().sayHavingLunchWithSister();
 		//Feature20190310-01 fine
+				//Feature Having Dinner with father inizio
+		new HavingDinnerWithFather().sayHavingDinnerWithFather();
+		//Feature Having Dinner with father fine		
 		SayGoodBye01 sayGoodBye = new SayGoodBye01();
 		sayGoodBye.sayGoodBye();
 		

@@ -12,7 +12,10 @@ public class TestGitMain01 {
 		//Feature 20190311-02 inizio
 		//SayHello02 sayHello2 = new SayHello02();
 		//sayHello2.sayHello();
-		new SayHello().sayHello("2");
+		//Feature 20190311-02 Fix Donald inizio
+		//new SayHello().sayHello("2");
+		new SayHello().sayHello("Donald");
+		//Feature 20190311-02 Fix Donald fine
 		//Feature 20190311-02 Fine
 		//Feature Having Dinner with father inizio
 		new HavingDinnerWithFather().sayHavingDinnerWithFather();

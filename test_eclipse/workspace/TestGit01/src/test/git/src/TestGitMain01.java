@@ -9,11 +9,16 @@ public class TestGitMain01 {
 		SayHello01 sayHello = new SayHello01();
 		sayHello.sayHello();
 		System.out.println("Call Hello2");
+		
+		
 		//Feature 20190311-02 inizio
 		//SayHello02 sayHello2 = new SayHello02();
 		//sayHello2.sayHello();
-		new SayHello().sayHello("2");
-		//Feature 20190311-02 Fine
+		//Feature 20190311-02 Fix Donald inizio
+		//new SayHello().sayHello("2");
+		new SayHello().sayHello("Donald");
+		//Feature 20190311-02 Fix Donald fine
+		//Feature 20190311-02 Fine								
 		System.out.println("Call Good Bye");
 		//Feature20190310-01 Commit Feature Having Lunch
 		 new  SayHavingLunch().sayHavingLunch();

@@ -8,4 +8,7 @@ public class TestGitHelper {
 	public String toUpperCase(String str){
 		return str.toUpperCase();
 	}
+	public String toLowerCase(String str){
+		return str.toLowerCase();
+	}
 }

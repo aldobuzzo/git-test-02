@@ -55,6 +55,10 @@ public class TestGitMain01 {
 		//Feature 20190301-01 Syster GoodByte fine		
 		AmStillAwake amStillAwake = new AmStillAwake();
 		amStillAwake.stillAwaked();
+		
+		//TestRebase without Conflicts inizio
+		new TestRebaseClass().isRebase();
+		//TestRebase without Conflicts fine
 		System.out.println("End Main program");
 	}
 
